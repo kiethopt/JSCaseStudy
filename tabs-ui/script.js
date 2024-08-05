@@ -24,5 +24,12 @@ tabs.forEach((tab, index) => {
     // Sau đó thêm class active vào item được click
     this.classList.add("active"); // bấm vào item nào thì tự thêm class active
     panel.classList.add("active");
+
+    // Kiểm tra nếu tab được click là tab Dark Mode
+    if (tab.classList.contains("dark")) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
   };
 });

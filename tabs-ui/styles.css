@@ -26,7 +26,7 @@ body {
 
 .tabs .line {
   position: absolute;
-  background-color: #c23564;
+  background-color: #ff3530;
   border-radius: 15px;
   left: 0;
   bottom: 0;
@@ -37,15 +37,15 @@ body {
 
 .tab-item {
   min-width: 80px;
-  padding: 16px 20px 11px 20px;
+  padding: 16px 14px 11px 20px;
   font-size: 20px;
   text-align: center;
-  color: #c23564;
+  color: #ff3530;
   background-color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom: 5px solid transparent;
-  opacity: 0.6;
+  opacity: 0.5;
   cursor: pointer;
   transition: all 0.5s ease;
 }
@@ -84,4 +84,53 @@ body {
 .tab-panel h2 {
   margin-bottom: 8px;
   font-size: 24px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode .tab-item {
+  color: #fff;
+  background: none;
+}
+
+body.dark-mode .tab-item.active {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark-mode .tab-item:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .tab-content {
+  background-color: #121212;
+}
+
+body.dark-mode .tab-panel h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .tab-panel p {
+  color: #cccccc;
+}
+
+body.dark-mode .tabs .line {
+  background-color: #ffffff;
+}
+
+/* Dark Mode Tab Specific Styles */
+.tab-item.dark {
+  color: #000; /* Màu vàng cho tab Dark Mode */
+}
+
+body.dark-mode .tab-item.dark {
+  color: #fff;
+}
+
+body.dark-mode .tab-item.dark:hover {
+  border-color: rgba(255, 255, 0, 0.2);
 }
