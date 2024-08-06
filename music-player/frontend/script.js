@@ -60,6 +60,13 @@ function renderPlaylist() {
   playlist.innerHTML = htmls.join("");
 
   // Thêm sự kiện load image error để thay thế bằng ảnh mặc định
+  document.querySelectorAll(".thumb").forEach((thumb) => {
+    thumb.addEventListener("error", function () {
+      this.style.backgroundImage = "url('./assets/img/Blinding_Lights.jpg')";
+    });
+  });
+
+  // Thêm sự kiện load image error để thay thế bằng ảnh mặc định
   document.querySelectorAll(".thumb").forEach((img) => {
     const url = img.style.backgroundImage.slice(5, -2);
     const imgElement = new Image();
