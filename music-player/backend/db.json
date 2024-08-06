@@ -4,57 +4,57 @@
       "id": 0,
       "name": "Blinding Lights",
       "authors": "The Weeknd",
-      "cover": "../backend/assets/img/Blinding_Lights.jpg",
-      "path": "../backend/assets/songs/Blinding_Lights.mp3"
+      "cover": "/img/Blinding_Lights.jpg",
+      "path": "/songs/Blinding_Lights.mp3"
     },
     {
       "id": 1,
       "name": "MỘNG YU",
       "authors": "AMEE, MCK",
-      "cover": "../backend/assets/img/MONGYU.jpg",
-      "path": "../backend/assets/songs/MONGYU.mp3"
+      "cover": "/img/MONGYU.jpg",
+      "path": "/songs/MONGYU.mp3"
     },
     {
       "id": 2,
       "name": "2000 câu hỏi vì sao",
       "authors": "AMEE",
-      "cover": "../backend/assets/img/2000CauHoiViSao.jpg",
-      "path": "../backend/assets/songs/2000CauHoiViSao.mp3"
+      "cover": "/img/2000CauHoiViSao.jpg",
+      "path": "/songs/2000CauHoiViSao.mp3"
     },
     {
       "id": 3,
       "name": "1000 Ánh Mắt",
       "authors": "Shiki, Obito",
-      "cover": "../backend/assets/img/1000AnhMat.jpg",
-      "path": "../backend/assets/songs/1000AnhMat.mp3"
+      "cover": "/img/1000AnhMat.jpg",
+      "path": "/songs/1000AnhMat.mp3"
     },
     {
       "id": 4,
       "name": "Có Đôi Điều",
       "authors": "Shiki",
-      "cover": "../backend/assets/img/CoDoiDieu.jpg",
-      "path": "../backend/assets/songs/CoDoiDieu.mp3"
+      "cover": "/img/CoDoiDieu.jpg",
+      "path": "/songs/CoDoiDieu.mp3"
     },
     {
       "id": 5,
       "name": "Không Phải Gu",
       "authors": "HIEUTHUHAI",
-      "cover": "../backend/assets/img/KhongPhaiGu.jpg",
-      "path": "../backend/assets/songs/KhongPhaiGu.mp3"
+      "cover": "/img/KhongPhaiGu.jpg",
+      "path": "/songs/KhongPhaiGu.mp3"
     },
     {
       "id": 6,
       "name": "Exit Sign",
       "authors": "HIEUTHUHAI, marzuz",
-      "cover": "../backend/assets/img/ExitSign.jpg",
-      "path": "../backend/assets/songs/ExitSign.mp3"
+      "cover": "/img/ExitSign.jpg",
+      "path": "/songs/ExitSign.mp3"
     },
     {
       "id": 7,
       "name": "Nếu",
       "authors": "marzuz",
-      "cover": "../backend/assets/img/Neu.jpg",
-      "path": "../backend/assets/songs/Neu.mp3"
+      "cover": "/img/Neu.jpg",
+      "path": "/songs/Neu.mp3"
     }
   ]
 }
