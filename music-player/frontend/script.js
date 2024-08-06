@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000/songs";
+const apiUrl = "https://jscasestudy.onrender.com/songs";
 
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelector.bind(document);
@@ -60,10 +60,16 @@ function renderPlaylist() {
   playlist.innerHTML = htmls.join("");
 
   // Thêm sự kiện load image error để thay thế bằng ảnh mặc định
-  document.querySelectorAll(".thumb").forEach((thumb) => {
-    thumb.addEventListener("error", function () {
-      this.style.backgroundImage = "url('../backend/assets/img/song01.jpg')";
-    });
+  document.querySelectorAll(".thumb").forEach((img) => {
+    const url = img.style.backgroundImage.slice(5, -2);
+    const imgElement = new Image();
+    imgElement.src = url;
+    imgElement.onload = () => {
+      img.style.backgroundImage = `url('${url}')`;
+    };
+    imgElement.onerror = () => {
+      img.style.backgroundImage = "url('./assets/img/Blinding_Lights.jpg')";
+    };
   });
 
   // Gọi scrollActiveSongIntoView sau khi render xong
@@ -74,6 +80,16 @@ function loadCurrentSong() {
   const song = songsData[currentIndex];
   heading.textContent = song.name;
   cdThumb.style.backgroundImage = `url(${song.cover})`;
+
+  const imgElement = new Image();
+  imgElement.src = song.cover;
+  imgElement.onload = () => {
+    cdThumb.style.backgroundImage = `url(${song.cover})`;
+  };
+  imgElement.onerror = () => {
+    cdThumb.style.backgroundImage = "url('./assets/img/Blinding_Lights.jpg')";
+  };
+
   audio.src = song.path;
 }
 
