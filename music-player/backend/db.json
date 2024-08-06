@@ -4,57 +4,57 @@
       "id": 0,
       "name": "Blinding Lights",
       "authors": "The Weeknd",
-      "cover": "/img/Blinding_Lights.jpg",
-      "path": "/songs/Blinding_Lights.mp3"
+      "cover": "https://jscasestudy.onrender.com/img/Blinding_Lights.jpg",
+      "path": "https://jscasestudy.onrender.com/songs/Blinding_Lights.mp3"
     },
     {
       "id": 1,
       "name": "MỘNG YU",
       "authors": "AMEE, MCK",
-      "cover": "/img/MONGYU.jpg",
-      "path": "/songs/MONGYU.mp3"
+      "cover": "https://jscasestudy.onrender.com/img/MONGYU.jpg",
+      "path": "https://jscasestudy.onrender.com/songs/MONGYU.mp3"
     },
     {
       "id": 2,
       "name": "2000 câu hỏi vì sao",
       "authors": "AMEE",
-      "cover": "/img/2000CauHoiViSao.jpg",
-      "path": "/songs/2000CauHoiViSao.mp3"
+      "cover": "https://jscasestudy.onrender.com/img/2000CauHoiViSao.jpg",
+      "path": "https://jscasestudy.onrender.com/songs/2000CauHoiViSao.mp3"
     },
     {
       "id": 3,
       "name": "1000 Ánh Mắt",
       "authors": "Shiki, Obito",
-      "cover": "/img/1000AnhMat.jpg",
-      "path": "/songs/1000AnhMat.mp3"
+      "cover": "https://jscasestudy.onrender.com/img/1000AnhMat.jpg",
+      "path": "https://jscasestudy.onrender.com/songs/1000AnhMat.mp3"
     },
     {
       "id": 4,
       "name": "Có Đôi Điều",
       "authors": "Shiki",
-      "cover": "/img/CoDoiDieu.jpg",
-      "path": "/songs/CoDoiDieu.mp3"
+      "cover": "https://jscasestudy.onrender.com/img/CoDoiDieu.jpg",
+      "path": "https://jscasestudy.onrender.com/songs/CoDoiDieu.mp3"
     },
     {
       "id": 5,
       "name": "Không Phải Gu",
       "authors": "HIEUTHUHAI",
-      "cover": "/img/KhongPhaiGu.jpg",
-      "path": "/songs/KhongPhaiGu.mp3"
+      "cover": "https://jscasestudy.onrender.com/img/KhongPhaiGu.jpg",
+      "path": "https://jscasestudy.onrender.com/songs/KhongPhaiGu.mp3"
     },
     {
       "id": 6,
       "name": "Exit Sign",
       "authors": "HIEUTHUHAI, marzuz",
-      "cover": "/img/ExitSign.jpg",
-      "path": "/songs/ExitSign.mp3"
+      "cover": "https://jscasestudy.onrender.com/img/ExitSign.jpg",
+      "path": "https://jscasestudy.onrender.com/songs/ExitSign.mp3"
     },
     {
       "id": 7,
       "name": "Nếu",
       "authors": "marzuz",
-      "cover": "/img/Neu.jpg",
-      "path": "/songs/Neu.mp3"
+      "cover": "https://jscasestudy.onrender.com/img/Neu.jpg",
+      "path": "https://jscasestudy.onrender.com/songs/Neu.mp3"
     }
   ]
 }
