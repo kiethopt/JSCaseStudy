@@ -6,7 +6,13 @@ The Music Player Project is a web application designed to provide a seamless and
 
 ## Demo
 
-Check out the live demo of the project **[here](https://kietho-musicplayer.vercel.app/)**.
+<p align="center">
+  Check out the live demo of the project <strong><a href="https://kietho-musicplayer.vercel.app/">here</a></strong>.
+</p>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c5005198-125e-4fcc-af74-6f9698d2299e" alt="music-player1">
+</div>
 
 ## Features
 
