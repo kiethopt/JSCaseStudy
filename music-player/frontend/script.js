@@ -301,5 +301,10 @@ const sortable = new Sortable(playlist, {
   },
 });
 
+// Endpoint để giữ cho server luôn hoạt động
+app.get("/keep-alive", (req, res) => {
+  res.status(200).send("Server is alive");
+});
+
 // Gọi
 fetchSongs();
